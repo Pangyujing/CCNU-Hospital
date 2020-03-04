@@ -49,3 +49,6 @@
   text-align: center;
   font-size:35rpx;
 }
+.infor{
+  margin-top:130rpx;
+}

@@ -7,7 +7,7 @@
       </swiper-item>
       </block>
     </swiper>
-  </view>
+</view>
 
 <!--新闻列表-->
 <view class="news-list">
@@ -20,7 +20,9 @@
   </view>
   <button plain="true" type="primary" bindtap="goToHealth" class='btn1'>查看更多</button>
 </view>
+
 <!--就诊信息-->
+<view class="infor">
 <view class="title">
     <image src="/images/jiantou.png"></image>
     <text>就诊小贴士</text>
@@ -28,4 +30,5 @@
 <view class="jiuzhen">
   <text bindtap="goToTime">就诊时间</text>
   <text bindtap="goToGide">就医指南</text>
+</view>
 </view>
