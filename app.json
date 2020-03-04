@@ -6,8 +6,8 @@
     "pages/reserve/reserve",
     "pages/health/health",
     "pages/gide/gide",
-    "pages/login/login",
-    "pages/time/time"
+    "pages/time/time",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarBackgroundColor": "#FFC0CB",
