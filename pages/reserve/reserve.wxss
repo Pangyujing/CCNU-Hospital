@@ -1,0 +1,185 @@
+page{ 
+  display: flex; 
+  flex-direction: column; 
+  height: 100%; 
+} 
+.navbar{ 
+  flex: none; 
+  display: flex; 
+  background: #fff; 
+} 
+.navbar .item{ 
+  font-size:35rpx;
+  position: relative; 
+  flex: auto; 
+  text-align: center; 
+  line-height: 80rpx; 
+} 
+.navbar .item.active{ 
+  color: #FF69B4; 
+} 
+.navbar .item.active:after{ 
+  content: ""; 
+  display: block; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  height: 4rpx; 
+  background: #FF69B4; 
+}
+/*表单内容*/
+page{
+  background: #eee;
+}
+.baseInfo{
+  padding:20rpx 10rpx;
+}
+.baseInfo text{
+  border-left:2px solid #FF69B4;
+  padding-left:10rpx;
+  font-size: 28rpx;
+  color: #6f6f6f;
+}
+.list{
+  color: #6f6f6f;
+  font-size: 32rpx;
+}
+.number,.name,.sex,.phone,.info{
+  background: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.number,.name input,.phone input,.info input{
+  text-align:right;
+}
+.sex{
+  background: #fff;
+}
+.radio radio{
+  margin-left: 30rpx;
+}
+/* button{
+  margin-left:5%;
+  width:90%;
+  background-color: pink;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */
+.modal view{
+  text-align: center;
+}
+.keshi{
+  font-size:28rpx;
+  text-align: right;
+}
+.bottom{
+  display: flex;
+  flex-direction:row;
+}
+.submit {
+  width: 100%;
+  height: 95rpx;
+  border-top: 1px solid #efefef;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+ 
+.submit-deatils {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  box-sizing: border-box;
+  padding-left: 74rpx;
+  align-items: baseline;
+  line-height: 1;
+}
+ 
+.details image {
+  width: 16rpx;
+  height: 16rpx;
+}
+ 
+.submit-btn {
+  width: 50%;
+  height: 100%;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  outline: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: 40rpx;
+}
+ 
+.symbol {
+  font-size: 32rpx;
+}
+ 
+.price {
+  font-size: 48rpx;
+  font-family:DIN;
+}
+.inputRoom {
+  width: 100vw;
+  height: 16vw;
+  border-top: 1px solid #cdcdcd;
+  background-color: #f1f1f1;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  z-index: 20;
+}
+
+input {
+  width: 76vw;
+  height: 9.33vw;
+  background-color: #fff;
+  border-radius: 40rpx;
+  margin-left: 2vw;
+  padding: 0 3vw;
+  font-size: 28rpx;
+  color: #444;
+}
+
+.leftMsg {
+  font-size: 35rpx;
+  color: #444;
+  line-height: 7vw;
+  padding: 2vw 2.5vw;
+  background-color: #fff;
+  margin-left: -1.6vw;
+  border-radius: 10rpx;
+  z-index: 10;
+}
+
+.rightMsg {
+  font-size: 35rpx;
+  color: #444;
+  line-height: 7vw;
+  padding: 2vw 2.5vw;
+  background-color: #96EB6A;
+  margin-right: -1.6vw;
+  border-radius: 10rpx;
+  z-index: 10;
+}
+.name text{
+  width: 300rpx;
+  height: 9.33vw;
+}

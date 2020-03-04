@@ -1,0 +1,31 @@
+<!--幻灯片-->
+<view class='swiper'>
+    <swiper indicator-dots="{{indicatorDots}}" vertical="{{vertical}}" autoplay="{{autoplay}}" duration="{{duration}}" interval='{{interval}}' bindchange="bindchange"  circular="{{circular}}" style="height:{{imgheights[current]}}rpx;">
+    <block wx:for='{{imgList}}' wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" data-id='{{index}}' class="slide-image" mode="widthFix" bindload="imageLoad"/>
+      </swiper-item>
+      </block>
+    </swiper>
+  </view>
+
+<!--新闻列表-->
+<view class="news-list">
+  <view class="title">
+    <image src="/images/jiantou.png"></image>
+    <text>健康小知识</text>
+  </view>
+  <view wx:for="{{newsList}}" wx:for-item="item" class="news-item">
+    <text>{{item.title}}————{{item.date}}</text>
+  </view>
+  <button plain="true" type="primary" bindtap="goToHealth" class='btn1'>查看更多</button>
+</view>
+<!--就诊信息-->
+<view class="title">
+    <image src="/images/jiantou.png"></image>
+    <text>就诊小贴士</text>
+</view>
+<view class="jiuzhen">
+  <text bindtap="goToTime">就诊时间</text>
+  <text bindtap="goToGide">就医指南</text>
+</view>

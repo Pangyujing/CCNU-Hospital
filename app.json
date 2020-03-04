@@ -1,0 +1,42 @@
+{
+  "sitemapLocation": "sitemap.json",
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/reserve/reserve",
+    "pages/health/health",
+    "pages/gide/gide",
+    "pages/login/login",
+    "pages/time/time"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#FFC0CB",
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "校医院",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/index.png",
+        "selectedIconPath": "images/index1.png"
+      },
+      {
+        "pagePath": "pages/reserve/reserve",
+        "text": "预约",
+        "iconPath": "images/reserve.png",
+        "selectedIconPath": "images/reserve1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my1.png"
+      }
+    ]
+  }
+}

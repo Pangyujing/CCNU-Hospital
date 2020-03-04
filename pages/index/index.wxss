@@ -1,0 +1,51 @@
+.swiper image{
+  width:100%;
+  height:auto;
+}
+/*新闻列表*/
+.news-list{
+  height: 530rpx;
+  padding:15rpx;
+}
+.title{
+  margin-top:20rpx;
+  color:#FF69B4;
+  font-size:35rpx;
+  font-weight:bold;
+}
+.title image{
+  width:30rpx;
+  height:30rpx;
+  padding-right:20rpx;
+}
+.news-item{
+  padding-left:30rpx;
+  display:flex;
+  flex-direction: row;
+  border-bottom:1rpx solid black;
+  height:60rpx;
+  padding-top:20rpx;
+  margin-bottom:20rpx;
+}
+.news-item text{
+  font-size:35rpx;
+}
+.btn1{
+  margin-left:30%;
+  width:40%;
+  font-size:35rpx;
+}
+.jiuzhen{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.jiuzhen text{
+  padding-top:15rpx;
+  margin-top:20rpx;
+  height:60rpx;
+  width:40%;
+  border:3rpx solid black;
+  text-align: center;
+  font-size:35rpx;
+}

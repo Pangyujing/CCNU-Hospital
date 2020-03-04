@@ -1,0 +1,15 @@
+<view class='title'>
+  <image src="/images/time.png"></image>
+  <text>华师大校医院门诊时间</text>
+</view>
+<view class="content">
+  <text class="txt1">平诊时间</text>
+  <text class="txt2">周一至周五（周五下午，周末、节假日以及特殊活动除外</text>
+  <text class="txt2">冬季作息时间（每年国庆节后执行）</text>
+  <text class="txt2">上午8：00-11：40  下午14：00-17：00</text>
+  <text class="txt2"> 夏季作息时间（每年五一节后执行）</text>
+  <text class="txt2">上午8：00-11：40  下午14：30-17：40</text>
+  <text class="txt2">注：请勿挂急诊号（平诊时急诊室作为慢性病诊室使用）</text>
+  <text class="txt1">急诊时间</text>
+  <text class="txt2">平诊时间外，均为急诊，各科室停诊，请挂急诊号到急诊室就诊。</text>
+</view>

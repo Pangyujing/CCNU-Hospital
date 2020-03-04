@@ -1,0 +1,13 @@
+.news-item{
+  padding-left:30rpx;
+  display:flex;
+  flex-direction: row;
+  border-bottom:1rpx solid black;
+  min-height:60rpx;
+  padding-top:20rpx;
+  padding-bottom:20rpx;
+  line-height:60rpx;
+}
+.news-item text{
+  font-size:35rpx;
+}

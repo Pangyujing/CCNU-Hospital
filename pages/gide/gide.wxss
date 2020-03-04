@@ -1,0 +1,60 @@
+page{ 
+  flex-direction: column; 
+  height: 100%; 
+} 
+.navbar{ 
+  flex: none; 
+  display: flex; 
+  background: #fff; 
+} 
+.navbar .item{ 
+  font-size:35rpx;
+  position: relative; 
+  flex: auto; 
+  text-align: center; 
+  line-height: 80rpx; 
+} 
+.navbar .item.active{ 
+  color: #FF69B4; 
+} 
+.navbar .item.active:after{ 
+  content: ""; 
+  display: block; 
+  position: absolute; 
+  bottom: 0; 
+  left: 0; 
+  right: 0; 
+  height: 4rpx; 
+  background: #FF69B4; 
+}
+.loc{
+  line-height:60rpx;
+  margin-top:40rpx;
+  margin-left:45rpx;
+  margin-right:45rpx;
+  font-size:35rpx;
+  display: flex; 
+  flex-direction: column; 
+}
+image{
+  margin-top:30rpx;
+  padding-left:2%;
+  width: 96%;
+  height: 400rpx;
+  margin-bottom:50rpx;
+}
+.news-item{
+  padding-left:40rpx;
+  padding-right:40rpx;
+  margin-top:30rpx;
+  padding-bottom:25rpx;
+  display:flex;
+  flex-direction: column;
+  border-bottom:1rpx solid black;
+}
+.news-item text{
+  text-indent:56rpx;
+  width:100%;
+  line-height:50rpx;
+  font-size:30rpx;
+}

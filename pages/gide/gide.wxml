@@ -1,0 +1,26 @@
+<!--导航条--> 
+<view class="navbar"> 
+  <text wx:for="{{navbar}}" data-idx="{{index}}" class="item {{currentTab==index ? 'active' : ''}}" wx:key="unique" bindtap="navbarTap">{{item}}</text> 
+</view> 
+
+<!--地理位置--> 
+<view hidden="{{currentTab!==0}}" class="loc"> 
+  <text>华中师范大学医院</text>
+  <text>华中师范大学医院位于华中师范大学校内，9号教学楼后侧，图书馆附近</text>
+  <text>地址：湖北省武汉市洪山区珞喻路152号</text>
+  <text>电话:(027)67867176</text>
+  <image src="/images/map.jpg"></image>
+</view> 
+  
+<!--常见问题--> 
+<view hidden="{{currentTab!==1}}" class="news-item" wx:for="{{newsList}}" wx:key="{{item.id}}"> 
+  <text>{{item.title}}</text>
+  <text>{{item.content}}</text>
+</view>
+  
+<!--联系电话--> 
+<view hidden="{{currentTab!==2}}" class="loc"> 
+  <image src="/images/phone.jpg"></image>
+  <text>投诉电话：(027)67867176‍</text>
+  <text>投诉邮箱：hosp@mail.ccnu.edu.cn</text>
+</view>

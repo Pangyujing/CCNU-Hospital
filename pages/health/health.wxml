@@ -1,0 +1,3 @@
+<view wx:for="{{index_key}}" wx:for-item="item" class="news-item">
+    <text>{{item.title}}————{{item.date}}</text>
+  </view>
